@@ -31,7 +31,7 @@ export default function Perros(){
                 renderItem={renderItem}
                 keyExtractor={item=>item.id}
                 ListHeaderComponent={
-                    <Text style={style.titulo}>Razas de Gatos</Text>
+                    <Text style={style.titulo}>Razas de Perros</Text>
                 }
                 />
             </View>            
